@@ -22,4 +22,4 @@ class HomeViewModel: ObservableObject {
     func navigateToRandomCatGenerator() -> CatRandomView {
         return coordinator.navigateToRandomCatGenerator()
     }
-
+}
