@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		5217F3482A92C80800379E61 /* CatMemeGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F3472A92C80800379E61 /* CatMemeGeneratorApp.swift */; };
-		5217F34A2A92C80800379E61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F3492A92C80800379E61 /* ContentView.swift */; };
 		5217F34C2A92C80900379E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5217F34B2A92C80900379E61 /* Assets.xcassets */; };
 		5217F34F2A92C80900379E61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5217F34E2A92C80900379E61 /* Preview Assets.xcassets */; };
+		5217F3562A92C94800379E61 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F3552A92C94800379E61 /* AppCoordinator.swift */; };
+		5217F35D2A92C9F300379E61 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F35A2A92C9F300379E61 /* HomeViewModel.swift */; };
+		5217F35E2A92C9F300379E61 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F35B2A92C9F300379E61 /* HomeView.swift */; };
+		5217F35F2A92C9F300379E61 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F35C2A92C9F300379E61 /* HomeCoordinator.swift */; };
+		5217F3712A92CB5000379E61 /* CatRandomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F36A2A92CB5000379E61 /* CatRandomViewModel.swift */; };
+		5217F3722A92CB5000379E61 /* CatRandomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F36B2A92CB5000379E61 /* CatRandomView.swift */; };
+		5217F3752A92CB7B00379E61 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5217F3742A92CB7B00379E61 /* RxCocoa */; };
+		5217F3772A92CB7B00379E61 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5217F3762A92CB7B00379E61 /* RxSwift */; };
+		5217F38F2A93700200379E61 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F3872A93700200379E61 /* APIManager.swift */; };
+		5217F3902A93700200379E61 /* UseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F3892A93700200379E61 /* UseCases.swift */; };
+		5217F3912A93700200379E61 /* CatMemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F38B2A93700200379E61 /* CatMemeView.swift */; };
+		5217F3922A93700200379E61 /* CatMemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F38C2A93700200379E61 /* CatMemeViewModel.swift */; };
+		5217F3932A93700200379E61 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217F38E2A93700200379E61 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5217F3442A92C80800379E61 /* CatMemeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatMemeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5217F3472A92C80800379E61 /* CatMemeGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatMemeGeneratorApp.swift; sourceTree = "<group>"; };
-		5217F3492A92C80800379E61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5217F34B2A92C80900379E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5217F34E2A92C80900379E61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5217F3552A92C94800379E61 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5217F35A2A92C9F300379E61 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5217F35B2A92C9F300379E61 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5217F35C2A92C9F300379E61 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		5217F36A2A92CB5000379E61 /* CatRandomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatRandomViewModel.swift; sourceTree = "<group>"; };
+		5217F36B2A92CB5000379E61 /* CatRandomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatRandomView.swift; sourceTree = "<group>"; };
+		5217F3872A93700200379E61 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5217F3892A93700200379E61 /* UseCases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseCases.swift; sourceTree = "<group>"; };
+		5217F38B2A93700200379E61 /* CatMemeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatMemeView.swift; sourceTree = "<group>"; };
+		5217F38C2A93700200379E61 /* CatMemeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatMemeViewModel.swift; sourceTree = "<group>"; };
+		5217F38E2A93700200379E61 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5217F3772A92CB7B00379E61 /* RxSwift in Frameworks */,
+				5217F3752A92CB7B00379E61 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +76,13 @@
 			isa = PBXGroup;
 			children = (
 				5217F3472A92C80800379E61 /* CatMemeGeneratorApp.swift */,
-				5217F3492A92C80800379E61 /* ContentView.swift */,
+				5217F3552A92C94800379E61 /* AppCoordinator.swift */,
+				5217F38D2A93700200379E61 /* Repository */,
+				5217F3862A93700200379E61 /* APIManager */,
+				5217F3882A93700200379E61 /* UseCases */,
+				5217F3592A92C9F300379E61 /* HomeView */,
+				5217F38A2A93700200379E61 /* CatMemeGenerator */,
+				5217F3692A92CB5000379E61 /* CatRandomGenerator */,
 				5217F34B2A92C80900379E61 /* Assets.xcassets */,
 				5217F34D2A92C80900379E61 /* Preview Content */,
 			);
@@ -65,6 +95,58 @@
 				5217F34E2A92C80900379E61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5217F3592A92C9F300379E61 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5217F35B2A92C9F300379E61 /* HomeView.swift */,
+				5217F35A2A92C9F300379E61 /* HomeViewModel.swift */,
+				5217F35C2A92C9F300379E61 /* HomeCoordinator.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		5217F3692A92CB5000379E61 /* CatRandomGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5217F36A2A92CB5000379E61 /* CatRandomViewModel.swift */,
+				5217F36B2A92CB5000379E61 /* CatRandomView.swift */,
+			);
+			path = CatRandomGenerator;
+			sourceTree = "<group>";
+		};
+		5217F3862A93700200379E61 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				5217F3872A93700200379E61 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		5217F3882A93700200379E61 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				5217F3892A93700200379E61 /* UseCases.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		5217F38A2A93700200379E61 /* CatMemeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5217F38B2A93700200379E61 /* CatMemeView.swift */,
+				5217F38C2A93700200379E61 /* CatMemeViewModel.swift */,
+			);
+			path = CatMemeGenerator;
+			sourceTree = "<group>";
+		};
+		5217F38D2A93700200379E61 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5217F38E2A93700200379E61 /* Repository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,10 @@
 			dependencies = (
 			);
 			name = CatMemeGenerator;
+			packageProductDependencies = (
+				5217F3742A92CB7B00379E61 /* RxCocoa */,
+				5217F3762A92CB7B00379E61 /* RxSwift */,
+			);
 			productName = CatMemeGenerator;
 			productReference = 5217F3442A92C80800379E61 /* CatMemeGenerator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +197,9 @@
 				Base,
 			);
 			mainGroup = 5217F33B2A92C80800379E61;
+			packageReferences = (
+				5217F3732A92CB7B00379E61 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 5217F3452A92C80800379E61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +226,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5217F34A2A92C80800379E61 /* ContentView.swift in Sources */,
+				5217F38F2A93700200379E61 /* APIManager.swift in Sources */,
+				5217F3562A92C94800379E61 /* AppCoordinator.swift in Sources */,
+				5217F35E2A92C9F300379E61 /* HomeView.swift in Sources */,
+				5217F35F2A92C9F300379E61 /* HomeCoordinator.swift in Sources */,
+				5217F3902A93700200379E61 /* UseCases.swift in Sources */,
+				5217F3912A93700200379E61 /* CatMemeView.swift in Sources */,
+				5217F3722A92CB5000379E61 /* CatRandomView.swift in Sources */,
+				5217F35D2A92C9F300379E61 /* HomeViewModel.swift in Sources */,
 				5217F3482A92C80800379E61 /* CatMemeGeneratorApp.swift in Sources */,
+				5217F3712A92CB5000379E61 /* CatRandomViewModel.swift in Sources */,
+				5217F3922A93700200379E61 /* CatMemeViewModel.swift in Sources */,
+				5217F3932A93700200379E61 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +436,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5217F3732A92CB7B00379E61 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5217F3742A92CB7B00379E61 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5217F3732A92CB7B00379E61 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		5217F3762A92CB7B00379E61 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5217F3732A92CB7B00379E61 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5217F33C2A92C80800379E61 /* Project object */;
 }
