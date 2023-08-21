@@ -27,3 +27,21 @@ class MemeGeneratorUseCase {
     }
 }
 
+
+class RandomGeneratorUseCase {
+    private let repository: Repository
+    
+    init(repository: Repository) {
+        self.repository = repository
+    }
+    
+    func generateRandomCatImage() -> Observable<UIImage?> {
+        return repository.generateRandomCatImage()
+            .map { data in
+                guard let data = data else {
+                    return nil
+                }
+                return UIImage(data: data)
+            }
+    }
+}
