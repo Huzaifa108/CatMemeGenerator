@@ -11,7 +11,7 @@ import SwiftUI
 struct CatMemeGeneratorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppCoordinator().start()
         }
     }
 }
